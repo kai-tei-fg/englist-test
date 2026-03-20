@@ -10,7 +10,7 @@
 - Google Fonts: M PLUS Rounded 1c（日本語）, Nunito（英語）
 
 ## ファイル構成
-- `vocab-quiz.html` — 子供向けクイズアプリ本体
+- `index.html` — 子供向けクイズアプリ本体
 - `worklist-manager.html` — 親向け単語帳管理ツール
 - `worklists/worklists.js` — 単語帳データ（管理ツールで生成、window.WORKLISTS形式）
 - `SPEC.md` — **詳細仕様書（修正時は必ず参照のこと）**
@@ -28,4 +28,4 @@
 ## 修正時の注意事項
 - 変更前に SPEC.md を読んで現在の仕様を正確に把握すること
 - 機能追加・変更後は SPEC.md も更新すること
-- テストは vocab-quiz.html をブラウザで開いて手動確認
+- テストは index.html をブラウザで開いて手動確認

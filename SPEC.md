@@ -11,7 +11,7 @@
 
 ```
 📁 プロジェクトルート/
-├── vocab-quiz.html            # 子供向け：クイズアプリ本体
+├── index.html            # 子供向け：クイズアプリ本体
 ├── worklist-manager.html      # 親向け：単語帳管理ツール
 ├── sample_words.csv           # サンプルCSVファイル
 └── 📁 worklists/

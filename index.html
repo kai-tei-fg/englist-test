@@ -190,7 +190,7 @@ body::after{content:'';position:fixed;bottom:-100px;left:-100px;width:350px;heig
             <label class="radio-option" id="lbl-part" onclick="selMode('partial')"><input type="radio" name="mode" value="partial"><span class="radio-mark"></span><span>いくつかだけ</span></label>
           </div>
           <div id="part-wrap" style="display:none">
-            <div class="partial-row"><input type="number" class="partial-input" id="part-num" value="50" min="1"><span class="partial-label">語をランダムでテスト</span></div>
+            <div class="partial-row"><input type="number" class="partial-input" id="part-num" value="70" min="1"><span class="partial-label">語をランダムでテスト</span></div>
             <div class="partial-hint" id="part-hint"></div>
           </div>
         </div>
@@ -325,7 +325,7 @@ function updateSel(){
     document.getElementById('total-w').textContent=allWords.length;
     document.getElementById('mode-all-n').textContent=allWords.length;
     document.getElementById('part-num').max=allWords.length;
-    document.getElementById('part-num').value=Math.min(50,allWords.length);
+    document.getElementById('part-num').value=Math.min(70,allWords.length);
     document.getElementById('part-hint').textContent=`（1〜${allWords.length}の数を入力）`;
   }else $a.style.display='none';
 }
